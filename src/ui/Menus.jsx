@@ -78,7 +78,7 @@ function Menus({ children }) {
 
   return (
     <MenusContext.Provider
-      value={{ openId, open, close, position, setPosition }}
+      value={{ openId, close, open, position, setPosition }}
     >
       {children}
     </MenusContext.Provider>
